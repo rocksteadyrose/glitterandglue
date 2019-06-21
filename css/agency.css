@@ -2,6 +2,9 @@
  * Start Bootstrap - Agency v5.2.1 (https://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ background-colors:
+ purple: #790E83
+ teal: #00b5b0
  */
 
 body {
@@ -14,15 +17,15 @@ p {
 }
 
 a {
-  color: rgb(121, 14, 131);
+  color: #790E83;
 }
 
 a:hover {
-  color: rgb(121, 14, 131);
+  color: #790E83;
 }
 
 .text-primary {
-  color: rgb(121, 14, 131) !important;
+  color: #790E83!important;
 }
 
 h1,
@@ -61,12 +64,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: rgb(121, 14, 131);
+  background: #790E83;
   text-shadow: none;
 }
 
 ::selection {
-  background: rgb(121, 14, 131);
+  background: #790E83;
   text-shadow: none;
 }
 
@@ -94,11 +97,11 @@ img::-moz-selection {
 
 .btn-primary {
   background-color: #00b5b0;
-  border-color: rgb(121, 14, 131);
+  border-color: #790E83;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: rgb(121, 14, 131) !important;
+  background-color: #790E83 !important;
   border-color: #00b5b0 !important;
   color: white;
 }
@@ -124,7 +127,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-toggler:hover {
-background-color: rgb(121, 14, 131)!important;
+background-color: #790E83!important;
 }
 
 #mainNav .navbar-brand {
@@ -146,7 +149,7 @@ background-color: rgb(121, 14, 131)!important;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: rgb(121, 14, 131);
+  color: #790E83;
 }
 
 header.masthead {
@@ -162,7 +165,7 @@ header.masthead {
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
-  color: rgb(121, 14, 131);
+  color: #790E83;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -233,7 +236,7 @@ header.masthead .intro-text .intro-brand {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: #00b5b0;
+  background: #790E83;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover, .teammodal .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -294,7 +297,7 @@ header.masthead .intro-text .intro-brand {
   color: white;
 } 
 
-#team {
+.teammodal {
   background-image: url("../img/backgrounds/tealglitter.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -319,7 +322,7 @@ header.masthead .intro-text .intro-brand {
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: #00b5b0;
+    background: #790E83;
   }
 
   .teammodal .portfolio-item .portfolio-link {
@@ -479,7 +482,7 @@ header.masthead .intro-text .intro-brand {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: rgb(121, 14, 131);
+  background-color: #790E83;
 }
 
 .timeline > li .timeline-image h4 {
@@ -646,7 +649,7 @@ header.masthead .intro-text .intro-brand {
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: #00b5b0;
+    background: #790E83;
   }
 
   .teammodal .portfolio-item .portfolio-link {
@@ -749,7 +752,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: rgb(121, 14, 131);
+  background-color: #790E83;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
